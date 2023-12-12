@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the boxes horizontally and vertically */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Change as needed */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the boxes */
+.box {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Different background colors for each box */
+.litmus {
+  background-color: #FF7F50; /* Coral */
+}
+
+.buoyancy {
+  background-color: #ADD8E6; /* Light Blue */
+}
+
+/* Style for the title links */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #fff; /* White text color for links */
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
