@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archimedes' Principle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Archimedes' Principle Calculator</h1>
+  </header>
+  
+  <main>
+    <div class="container">
+      <label for="density">Density of Liquid (kg/m<sup>3</sup>):</label>
+      <input type="number" id="density" min="0">
+      
+      <label for="volume">Volume of Object Submerged (m<sup>3</sup>):</label>
+      <input type="number" id="volume" min="0">
+      
+      <button onclick="calculateBuoyantForce()">Calculate Buoyant Force</button>
+      
+      <p>Buoyant Force: <span id="result"></span> N</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
